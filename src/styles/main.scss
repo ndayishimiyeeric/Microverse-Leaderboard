@@ -1,19 +1,96 @@
 * {
+  font-family: 'Lora', serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background: orangered;
+ul {
+  list-style: none;
 }
 
-h1 {
-  padding: 20% 10% 1% 30%;
-  color: wheat;
+button {
+  background: #fff;
+  text-align: center;
+  border: 2px solid black;
+  width: 30%;
+  padding: 5px;
+  box-shadow: 2px 2px 2px black;
+  transition: transform 0.2s ease-in-out;
 }
 
-h4{
-    padding: 1% 30% 5% 30%;
-    color: white;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+header {
+  padding: 3% 5%;
+}
+
+.main {
+  margin: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.display_div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+
+.display_top {
+  display: flex;
+  gap: 20px;
+}
+
+.display_body {
+  border: 2px solid black;
+
+  li {
+    padding: 5px;
+    background-color: rgb(226, 217, 217);
+  }
+
+  li:nth-child(odd) {
+    background-color: #fff;
+  }
+}
+
+.add_div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+
+  .add_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      padding: 10px 10px;
+    }
+
+    input::placeholder {
+      font-style: italic;
+    }
+
+    input:focus {
+      outline: none;
+    }
+  }
 }

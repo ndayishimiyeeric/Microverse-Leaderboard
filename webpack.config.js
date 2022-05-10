@@ -1,5 +1,5 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -15,7 +15,7 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist')
+      directory: path.resolve(__dirname, 'dist'),
     },
     port: 3000,
     open: true,
@@ -51,9 +51,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack App',
+      title: 'Leaderboard',
       filename: 'index.html',
       template: 'src/template.html',
-    })
+    }),
   ],
-}
+};
