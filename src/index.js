@@ -5,5 +5,5 @@ const displayBody = document.querySelector('.display_body');
 
 displayBody.innerHTML = '';
 scoreArray.forEach((score) => {
-  displayBody.innerHTML += `<li>Name: ${score}</li>`
+  displayBody.innerHTML += `<li>Name: ${score}</li>`;
 });
