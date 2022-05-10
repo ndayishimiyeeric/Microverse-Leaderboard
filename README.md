@@ -1,15 +1,15 @@
-# Webpack Starter
+# Microverse Leaderboard
 
-Frontend environment for building JavaScript applications
+This is a javascript project application
 
 Includes the following features...
 
-- Babel Loader
-- Sass Loader and Css Loader
-- HTMLWebpackPlugin
-- WebpackDevServer
-- Asset Resource Loader
-- Source Maps
+- Webpack to bundle Javascript
+- Display scores
+
+## Live Demo
+
+Check out the **live demo** [here.](https://ndayishimiyeeric.github.io/Microverse-Leaderboard/)
 
 ## Usage
 
@@ -25,10 +25,10 @@ Run Dev Server (Port 3000)
 npm run build
 ```
 
-## Demo App
+## Authors
 
-The demo app is a very simple Welcome message with an `h1` and `h4`. Replace with your own code and install other packages as needed
+👤 **Odaltoneric**
 
-- index.js (main javascript)
-- template.html (template)
-- styles/main.scss (styles)
+- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
+- Twitter: [@odaltongain](https://twitter.com/odaltongain)
+- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
