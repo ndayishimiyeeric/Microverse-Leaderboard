@@ -1,11 +1,11 @@
 # Microverse Leaderboard
 
-This is a javascript project application
+This is a javascript Leaderboard application
 
 Includes the following features...
 
 - Webpack to bundle Javascript
-- Display scores
+- Fetch API to
 
 ## Live Demo
 

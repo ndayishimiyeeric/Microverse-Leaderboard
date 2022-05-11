@@ -1,3 +1,9 @@
-const scoreArray = [100, 50, 30, 40, 20, 10];
+import url from './url.js';
 
-export default scoreArray;
+const displayBody = document.querySelector('.display_body');
+
+export default async function fetchDATA() {
+  const response = await fetch(url);
+  const data = await response.json();
+  displayBody.innerHTML = data.result.map((res) => `<li>${res.user}: ${res.score}</li>`).join('');
+}
