@@ -44,7 +44,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
-- Thank you [Manel Hammouche](https://github.com/ha-manel) for your help and the improvement suggestions.
 
 ## 📝 License
 
