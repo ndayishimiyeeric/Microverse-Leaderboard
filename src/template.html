@@ -14,21 +14,33 @@
   </head>
   <body>
     <header>
-      <h1>Leaderboard</h1>
+      <h1 class="text-3xl font-normal">Leaderboard</h1>
     </header>
     <section class="main">
       <div class="display_div">
         <div class="display_top">
-          <h3>Recent scores</h3>
+          <h3 class="text-xl">Recent scores</h3>
           <button class="reflesh">Reflesh</button>
         </div>
-        <ul class="display_body"></ul>
+        <ul class="display_body text-sm"></ul>
       </div>
       <div class="add_div">
-        <h3>Add your score</h3>
+        <h3 class="text-xl">Add your score</h3>
         <form class="add_form">
-          <input type="text" id="name" placeholder="Your name" required />
-          <input type="number" id="score" placeholder="Your score" required />
+          <input
+            type="text"
+            id="name"
+            class="bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none sm:text-sm"
+            placeholder="Your name"
+            required
+          />
+          <input
+            type="number"
+            id="score"
+            class="bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none sm:text-sm"
+            placeholder="Your score"
+            required
+          />
           <button type="submit" class="add_button">Submit</button>
         </form>
       </div>
