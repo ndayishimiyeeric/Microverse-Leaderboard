@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   font-family: 'Lora', serif;
   box-sizing: border-box;
@@ -5,17 +9,25 @@
   padding: 0;
 }
 
+body {
+  @apply bg-sky-100;
+}
+
 ul {
   list-style: none;
 }
 
 button {
-  background: #fff;
+  @apply bg-sky-600;
+
+  color: #fff;
   text-align: center;
-  border: 2px solid black;
+
+  @apply rounded-2xl;
+
   width: 30%;
   padding: 5px;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 2px rgb(96 165 250);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -32,6 +44,8 @@ input[type=number] {
 button:hover {
   cursor: pointer;
   transform: scale(1.1);
+
+  @apply animate-pulse;
 }
 
 header {
@@ -58,15 +72,17 @@ header {
 }
 
 .display_body {
-  border: 2px solid black;
+  border: 2px solid rgb(34 211 238);
+
+  @apply rounded-md;
 
   li {
     padding: 5px;
-    background-color: rgb(226, 217, 217);
+    background-color: rgb(255 228 230);
   }
 
   li:nth-child(odd) {
-    background-color: #fff;
+    background-color: rgb(251 207 232);
   }
 }
 
@@ -91,6 +107,10 @@ header {
 
     input:focus {
       outline: none;
+    }
+
+    .add_button {
+      @apply bg-emerald-300;
     }
   }
 }
